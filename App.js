@@ -2,21 +2,23 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import { GoogleSignin, GoogleSigninButton, statusCodes } from 'react-native-google-signin';
 
-GoogleSignin.configure();
 
 export default class App extends Component {
+  componentWillMount() {
+    GoogleSignin.configure({
+      webClientId: '83910807428-gr1abtlg0u25ga6ufch3scnbu9f06do2.apps.googleusercontent.com'
+    });
+  }
   state = {
     isSigninInProgress: false,
   }
 
   signIn = async () => {
     try {
-      await GoogleSignin.hasPlayServices({ showPlayServicesUpdateDialog: true });
+      await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn();
-      alert('DOne')
-      console.log(userInfo);
-      
-
+      console.log(userInfo)
+      alert('Success')
     } catch (error) {
       if (error.code === statusCodes.SIGN_IN_CANCELLED) {
         // user cancelled the login flow
@@ -29,7 +31,8 @@ export default class App extends Component {
         // play services not available or outdated
         alert('n/a')
       } else {
-
+        alert(error)
+        console.log(error)
         // some other error happened
       }
     }

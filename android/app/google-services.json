@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "83910807428-a80ga56f6vf6naqjvpv648cv8a137h3g.apps.googleusercontent.com",
+          "client_id": "83910807428-uciq27pclum22fg07g555pssd72q0abh.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.sneezingcat.testauth",
-            "certificate_hash": "2b61e9fa45e15991f4d21da21420c846a12e975b"
+            "certificate_hash": "8869cf5805374dbe83f5af066b4d35792c0e7d92"
           }
         },
         {
