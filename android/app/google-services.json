@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "83910807428",
+    "firebase_url": "https://testauth-fb313.firebaseio.com",
+    "project_id": "testauth-fb313",
+    "storage_bucket": "testauth-fb313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83910807428:android:31873c16822545b4",
+        "android_client_info": {
+          "package_name": "com.sneezingcat.testauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83910807428-a80ga56f6vf6naqjvpv648cv8a137h3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sneezingcat.testauth",
+            "certificate_hash": "2b61e9fa45e15991f4d21da21420c846a12e975b"
+          }
+        },
+        {
+          "client_id": "83910807428-gr1abtlg0u25ga6ufch3scnbu9f06do2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTmEXHSX8SJIBE-Bd89vjC_zsNIJPnYTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83910807428-gr1abtlg0u25ga6ufch3scnbu9f06do2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
